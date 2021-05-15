@@ -4,7 +4,7 @@
       "packageName": "com.mycompany.myapp",
       "nativeLanguage": "en"
     },
-    "jhipsterVersion": "6.9.1",
+    "jhipsterVersion": "7.0.1",
     "applicationType": "monolith",
     "baseName": "jhipster",
     "packageName": "com.mycompany.myapp",
@@ -38,6 +38,15 @@
     "enableTranslation": true,
     "nativeLanguage": "en",
     "languages": ["en"],
-    "blueprints": []
+    "blueprints": [],
+    "skipUserManagement": false,
+    "withAdminUi": true,
+    "skipClient": false,
+    "skipServer": false,
+    "skipCheckLengthOfIdentifier": false,
+    "skipFakeData": false,
+    "pages": [],
+    "reactive": false,
+    "entities": []
   }
 }
